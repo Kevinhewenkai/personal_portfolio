@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Header() {
   return (
     <header className="flex flex-1 flex-row items-center justify-between">
@@ -16,7 +15,7 @@ export default function Header() {
         <a href="/#Contact">Contact</a>
         <a
           className="rounded-[10px] bg-gray-900 px-[16px] py-[6px] text-gray-50"
-          href={"/src/assets/Wenkai_He_resume.pdf"}
+          href={"/public/Wenkai_He_resume.pdf"}
           download={"Wenkai_He_resume"}
         >
           Download CV

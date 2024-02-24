@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 export default function IntroductionText() {
   return (
     <>
-      <div className="flex flex-col gap-y-[48px]">
+      <div className="flex flex-col gap-y-[48px] w-1/2">
         <div className="flex flex-col gap-y-[8px]">
           <h1 className="text-h1M lg:text-h1D">Hi, I'm Wenkai He 👋</h1>
           <p className="lg:text-p1 text-gray-500">

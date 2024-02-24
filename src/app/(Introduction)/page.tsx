@@ -1,11 +1,16 @@
 "use client";
 import { SCREEN_SIZE_THRESHOLD, useWindowWidth } from "@/constant";
 import IntroductionText from "./(text)";
+import Avatar from "./(image)";
 
 function IntroductionLG() {
   return (
-    <div id={"home"} className=" py-[96px]">
+    <div
+      id={"home"}
+      className="py-[96px] flex flex-row justify-between items-center"
+    >
       <IntroductionText />
+      <Avatar />
     </div>
   );
 }
