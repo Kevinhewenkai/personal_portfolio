@@ -4,7 +4,7 @@ import IntroductionText from "./(text)";
 
 function IntroductionLG() {
   return (
-    <div id={"home"} className="px-[80px] py-[96px]">
+    <div id={"home"} className=" py-[96px]">
       <IntroductionText />
     </div>
   );
