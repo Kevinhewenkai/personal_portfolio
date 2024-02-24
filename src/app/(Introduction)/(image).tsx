@@ -8,9 +8,9 @@ export default function Avatar() {
           src={require("/public/avatar.jpeg")}
           width={290}
           alt={"Avatar"}
-          className="z-10 absolute"
+          className="z-10 absolute pr-[10px] pb-[10px] bg-white"
         />
-        <div className="w-[290px] -z-10 h-[320px] absolute bg-gray-100 translate-x-[20px] translate-y-[20px]"></div>
+        <div className="w-[290px] -z-10 h-[320px] absolute bg-gray-300 translate-x-[20px] translate-y-[20px]"></div>
       </div>
     </>
   );
